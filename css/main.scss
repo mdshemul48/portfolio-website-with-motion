@@ -226,3 +226,71 @@ header {
     margin-left: 2em;
   }
 }
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 90vh;
+  }
+  .nav-container {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+
+    header {
+      background-color: #6700ee;
+    }
+  }
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+  .social-header {
+    padding: 2em 4em 2em 0;
+  }
+  section {
+    padding: 4em;
+  }
+
+  .social-header {
+    display: block;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      width: 7em;
+      float: right;
+
+      img {
+        width: 20px;
+      }
+    }
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background-color: unset;
+    padding: 0;
+
+    .content {
+      background: #6e00ff;
+      padding: 6em 8em 6em 4em;
+      text-align: left;
+
+      h1 {
+        font-size: 3em;
+        line-height: 1.2em;
+      }
+    }
+  }
+  .meet {
+    margin: unset;
+  }
+  .hero-design {
+    display: unset;
+    margin-left: -50%;
+    margin-top: 15%;
+    width: 100%;
+  }
+  .portfolio img {
+    float: right;
+    max-width: 500px;
+  }
+}
