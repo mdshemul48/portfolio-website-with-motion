@@ -19,6 +19,10 @@ a {
 img {
   width: 100%;
 }
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
 // global css end.
 
 // ===================== nav bar start ==============================
@@ -77,4 +81,9 @@ header {
     margin-top: 1em;
     margin-right: 0.5em;
   }
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 2em;
 }

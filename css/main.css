@@ -19,6 +19,11 @@ img {
   width: 100%;
 }
 
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
 .nav-container {
   background: #6700ee;
 }
@@ -80,5 +85,10 @@ header nav ul a {
 .meet span {
   margin-top: 1em;
   margin-right: 0.5em;
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 2em;
 }
 /*# sourceMappingURL=main.css.map */
