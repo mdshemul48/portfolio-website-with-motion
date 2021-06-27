@@ -138,7 +138,7 @@ header {
 }
 
 .skills-container ul li {
-  background-color: white;
+  background: white;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -159,6 +159,7 @@ header {
       width: 60px;
     }
   }
+
   .skill-title {
     font-weight: bold;
   }
@@ -170,6 +171,10 @@ header {
 // ============================= skills area end =====================
 
 // ============================ portfolio area start ================
+.portfolio {
+  background: #f7f7f7;
+}
+
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 2em;

@@ -137,7 +137,7 @@ header nav ul a {
 }
 
 .skills-container ul li {
-  background-color: white;
+  background: white;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -169,6 +169,10 @@ header nav ul a {
 
 .skills-container ul li .featured-desc {
   margin-bottom: 2em;
+}
+
+.portfolio {
+  background: #f7f7f7;
 }
 
 .portfolio-container a img {
