@@ -52,4 +52,33 @@ header nav ul a {
   display: block;
   padding: 0 1em;
 }
+
+.social-header,
+.hero-design {
+  display: none;
+}
+
+.hero {
+  background-color: #6e00ff;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.meet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  font-weight: bold;
+  color: #ff64cb;
+}
+
+.meet span {
+  margin-top: 1em;
+  margin-right: 0.5em;
+}
 /*# sourceMappingURL=main.css.map */
