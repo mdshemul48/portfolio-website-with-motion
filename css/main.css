@@ -22,4 +22,34 @@ img {
 .nav-container {
   background: #6700ee;
 }
+
+.nav-container a {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: #00f7ff;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul a {
+  display: block;
+  padding: 0 1em;
+}
 /*# sourceMappingURL=main.css.map */
