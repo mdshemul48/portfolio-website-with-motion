@@ -131,3 +131,40 @@ header {
   font-weight: 500;
 }
 // ================================= featured area end======================
+
+// ============================= skills area start =====================
+.skills {
+  background-color: #fe64cb;
+}
+
+.skills-container ul li {
+  background-color: white;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+
+  .icon-container {
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+
+    &.one {
+      width: 50px;
+    }
+    &.two {
+      width: 100px;
+    }
+    &.three {
+      width: 60px;
+    }
+  }
+  .skill-title {
+    font-weight: bold;
+  }
+  .featured-desc {
+    margin-bottom: 2em;
+  }
+}
+
+// ============================= skills area end =====================
