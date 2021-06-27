@@ -4,4 +4,22 @@ body {
   margin: 0;
   font-family: "poppins", sans-serif;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: #6700ee;
+}
 /*# sourceMappingURL=main.css.map */
