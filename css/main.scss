@@ -23,6 +23,18 @@ section {
   padding: 4em 2em;
   text-align: center;
 }
+
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+@keyframes circleAnim {
+  from {
+    transform: translate(262px, 798px);
+  }
+  to {
+    transform: translate(262px, 830px);
+  }
+}
 // global css end.
 
 // ===================== nav bar start ==============================
