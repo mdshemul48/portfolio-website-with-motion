@@ -34,3 +34,15 @@ gsap.from(".square-anim", {
     ease: Back.easeOut.config(1.7)
 })
 
+// adding scrolling animation to the page.
+
+gsap.from(".transition2", {
+    scrollTrigger: {
+        trigger: ".transition2",
+        start: "top bottom"
+    },
+    y: 50,
+    opacity: 0,
+    duration: 1.2,
+    stagger: .3
+})
