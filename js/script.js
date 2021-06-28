@@ -18,4 +18,9 @@ tl.from('.stagger1', {
     stagger: .3,
     ease: Power4.easeOut,
     duration: 2
-})
+}, "-=1.5")
+
+
+tl.from(".hero-design", {
+    opacity: 0, y: 50, ease: Power4.easeOut, duration: 1
+}, "-=2")
